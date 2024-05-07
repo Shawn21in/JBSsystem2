@@ -1,0 +1,84 @@
+
+$nav_font:17px;
+$m_nav_font:15px;
+
+$font_L:18px;
+$font_M:15px;
+$font_S:13px;
+$font_XS:12px;
+
+$maincolor: #01ded7;
+
+@mixin fontstyle_normal($size,$lineheight){ 
+	font-size: $size;
+	color:$fontcolor_normal;
+	line-height: $lineheight;
+	letter-spacing: 0.06em;
+}
+
+
+@mixin fontstyle($size,$lineheight,$color,$weight){ 
+	font-size: $size;
+	color:$color;
+	line-height: $lineheight;
+	font-weight: $weight;
+}
+
+@mixin transition($tra){ 
+	-webkit-transition: all $tra ease-in-out;
+	   -moz-transition: all $tra ease-in-out;
+	    -ms-transition: all $tra ease-in-out;
+	     -o-transition: all $tra ease-in-out;
+	        transition: all $tra ease-in-out;
+}
+
+@mixin rot($de) {
+	-webkit-transform: rotate($de);
+	-moz-transform: rotate($de);
+	-ms-transform: rotate($de);
+	-o-transform: rotate($de);
+	transform: rotate($de);
+}
+
+
+@mixin dis($val){ 
+	display:inline-block;
+	vertical-align: $val;
+}
+
+@mixin app($app){
+	-webkit-appearance: $app;
+	-moz-appearance:    $app;
+	appearance:         $app;
+	border-radius: 0;
+	border: 0;
+	box-sizing:border-box;
+	box-shadow:0;
+}
+
+@mixin textoverflow($val,$val2,$val3){
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	height:$val ;
+	line-height:$val2 ;
+	-webkit-line-clamp:$val3;
+	-webkit-box-orient: vertical;
+}
+@mixin t-overflow($val){
+	overflow : $val;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+@mixin skew($val){
+	-moz-transform-origin:bottom;
+	-moz-transform:skewX($val);
+	-webkit-transform-origin:bottom;
+	-webkit-transform:skewX($val);
+	-o-transform-origin:bottom;
+	-o-transform:skewX($val);
+	-ms-transform-origin:bottom;
+	-ms-transform:skewX($val);
+	transform-origin:bottom;
+	transform:skewX($val);
+}

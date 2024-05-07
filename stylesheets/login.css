@@ -1,0 +1,1393 @@
+@charset "UTF-8";
+
+/* line 4, ../scss/member.scss */
+.center {
+    padding: 70px 120px;
+    background-color: #f4f4f4;
+}
+
+@media (max-width: 854px) {
+
+    /* line 4, ../scss/member.scss */
+    .center {
+        padding: 40px 50px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    /* line 4, ../scss/member.scss */
+    .center {
+        padding: 25px 30px;
+    }
+}
+
+/* line 15, ../scss/member.scss */
+.center_section {
+    background-color: #fff;
+    padding: 50px;
+}
+
+/* line 18, ../scss/member.scss */
+.center_section h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+
+/* line 22, ../scss/member.scss */
+.center_section h2 img {
+    display: block;
+    margin: 30px auto;
+}
+
+/* line 28, ../scss/member.scss */
+.center_section .login__form {
+    padding: 40px 0;
+}
+
+/* line 30, ../scss/member.scss */
+.center_section .login__form input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    margin: 0 auto 15px auto;
+    display: block;
+    font-size: 15px;
+}
+
+/* line 39, ../scss/member.scss */
+.center_section .login__form input[type='text'].account {
+    padding-left: 60px;
+    background: url(../images/acc.png) left 15px center no-repeat #f6f6f6;
+}
+
+/* line 43, ../scss/member.scss */
+.center_section .login__form input[type='password'].password {
+    padding-left: 60px;
+    background: url(../images/pwd.png) left 15px center no-repeat #f6f6f6;
+}
+
+/* line 49, ../scss/member.scss */
+.center_section a.forget_btn {
+    font-size: 16px;
+    color: #3a3a3a;
+    display: block;
+    width: 70px;
+    margin: 20px auto;
+    letter-spacing: 0.07em;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+
+    /* line 15, ../scss/member.scss */
+    .center_section {
+        padding: 20px;
+    }
+}
+
+/* line 66, ../scss/member.scss */
+button.style01 {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    letter-spacing: 0.07em;
+}
+
+/* line 76, ../scss/member.scss */
+button.login {
+    background-color: #4d9fad;
+}
+
+/* line 78, ../scss/member.scss */
+button.login:hover {
+    background-color: #287987;
+}
+
+/* line 82, ../scss/member.scss */
+button.regi {
+    background-color: #58ad96;
+}
+
+/* line 84, ../scss/member.scss */
+button.regi:hover {
+    background-color: #347e6a;
+}
+
+/* line 88, ../scss/member.scss */
+button.submit {
+    background-color: #454545;
+}
+
+/* line 90, ../scss/member.scss */
+button.submit:hover {
+    background-color: #2c2c2c;
+}
+
+/* line 97, ../scss/member.scss */
+.forget__form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid #a7a7a7;
+    display: none;
+}
+
+/* line 104, ../scss/member.scss */
+.forget__form p {
+    font-size: 15px;
+    color: #908f8f;
+    letter-spacing: 0.07em;
+    line-height: 1.5;
+}
+
+/* line 110, ../scss/member.scss */
+.forget__form input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    display: block;
+    padding: 0 15px;
+    background: #f6f6f6;
+    margin: 15px 0;
+}
+
+.forget__form .code {
+    font-size: 0;
+}
+
+.forget__form .code input {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0
+}
+
+.forget__form .code img {
+    width: 45%;
+    height: 50px;
+    margin-left: 5%;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 135px;
+    margin-bottom: 15px;
+}
+
+/* line 122, ../scss/member.scss */
+.register_sec {
+    padding: 50px 50px 20px 50px;
+}
+
+@media (max-width: 480px) {
+
+    /* line 122, ../scss/member.scss */
+    .register_sec {
+        padding: 20px;
+    }
+}
+
+/* line 130, ../scss/member.scss */
+.program_sec {
+    margin-top: 20px;
+    padding-top: 0px;
+}
+
+/* line 135, ../scss/member.scss */
+.register__form {
+    padding: 40px 100px 0 100px;
+}
+
+/* line 137, ../scss/member.scss */
+.register__form input[type="text"],
+input[type="password"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    box-sizing: border-box;
+    width: 48%;
+    height: 50px;
+    display: inline-block;
+    padding: 0 15px;
+    background: #f6f6f6;
+    margin: 0 1% 15px 1%;
+    font-size: 14px;
+}
+
+/* line 147, ../scss/member.scss */
+.register__form p.remind {
+    font-size: 14px;
+    color: #931515;
+    font-weight: bold;
+    width: 48%;
+    display: inline-block;
+    margin: 0 1% 15px 1%;
+    vertical-align: middle;
+    line-height: 1.3;
+}
+
+/* line 157, ../scss/member.scss */
+.register__form div.line {
+    border-top: 2px dashed #afafaf;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+@media (max-width: 1024px) {
+
+    /* line 135, ../scss/member.scss */
+    .register__form {
+        padding: 40px 50px 0 50px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* line 135, ../scss/member.scss */
+    .register__form {
+        padding: 40px 15px 0 15px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    /* line 171, ../scss/member.scss */
+    .register__form input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+
+    /* line 175, ../scss/member.scss */
+    .register__form p.remind {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+}
+
+/* line 187, ../scss/member.scss */
+.program__form {
+    position: relative;
+    padding-left: 170px;
+    margin-bottom: 30px;
+}
+
+/* line 191, ../scss/member.scss */
+.program__form>p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #3a3a3a;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+/* line 200, ../scss/member.scss */
+.program__form>span.red {
+    color: #a5034b;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/* line 205, ../scss/member.scss */
+.program__form>span.black {
+    color: #4a4a4a;
+    font-size: 15px;
+}
+
+/* line 210, ../scss/member.scss */
+.program__form__option {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 45px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.program__form__option.disblock {
+    display: block;
+
+}
+
+.program__form__option.disblock input[type=radio]:not(old)+label span {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 0
+}
+
+/* line 218, ../scss/member.scss */
+.program__form__option input[type=radio]:not(old) {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    left: -20px;
+    top: 0;
+    opacity: 0;
+}
+
+/* line 228, ../scss/member.scss */
+.program__form__option input[type=radio]:not(old)+label {
+    display: inline-block;
+    margin-left: -20px;
+    margin-right: 20px;
+    padding-left: 28px;
+    line-height: 20px;
+    background: url("../images/check0.png") no-repeat;
+    font-size: 15px;
+    color: #3a3a3a;
+    line-height: 1.5;
+}
+
+/* line 237, ../scss/member.scss */
+.program__form__option input[type=radio]:not(old)+label span {
+    color: #a5034b;
+    display: block;
+    margin-top: 5px;
+}
+
+/* line 244, ../scss/member.scss */
+.program__form__option input[type=radio]:not(old):checked+label {
+    background: url("../images/check1.png") no-repeat;
+}
+
+@media (max-width: 640px) {
+
+    /* line 187, ../scss/member.scss */
+    .program__form {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    /* line 254, ../scss/member.scss */
+    .program__form>p {
+        position: relative;
+        display: block;
+        margin-left: 0;
+        margin-bottom: 30px;
+        margin-left: -20px;
+    }
+
+    /* line 261, ../scss/member.scss */
+    .program__form>span {
+        font-size: 13px;
+    }
+}
+
+/* line 268, ../scss/member.scss */
+.check__form {
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    width: 98%;
+    max-width: 320px;
+}
+
+/* line 274, ../scss/member.scss */
+.check__form input[type=checkbox]:not(old) {
+    width: 26px;
+    height: 26px;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    opacity: 0;
+}
+
+/* line 283, ../scss/member.scss */
+.check__form input[type=checkbox]:not(old)+label {
+    display: inline-block;
+    padding-left: 34px;
+    line-height: 26px;
+    background: url("../images/check_0.png") no-repeat;
+    color: #3a3a3a;
+}
+
+/* line 289, ../scss/member.scss */
+.check__form input[type=checkbox]:not(old)+label p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+/* line 297, ../scss/member.scss */
+.check__form input[type=checkbox]:not(old):checked+label {
+    background: url("../images/check_1.png") no-repeat;
+}
+
+/* line 301, ../scss/member.scss */
+.check__form .submit_btn {
+    background-color: #4d9fad;
+    color: #fff;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px 0;
+    margin: 30px 0 0 0;
+}
+
+/* line 310, ../scss/member.scss */
+.check__form .submit_btn:hover {
+    background-color: #36737e;
+}
+
+@media (max-width: 640px) {
+
+    /* line 318, ../scss/member.scss */
+    .check__form input[type=checkbox]:not(old)+label p {
+        font-size: 14px;
+    }
+}
+
+/* line 327, ../scss/member.scss */
+.register_finish>p {
+    color: #3a3a3a;
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto 40px auto;
+    letter-spacing: 0.05em;
+}
+
+/* line 335, ../scss/member.scss */
+.register_finish>p .pro {
+    font-weight: bold;
+}
+
+/* line 338, ../scss/member.scss */
+.register_finish>p .amount {
+    color: #932020;
+}
+
+/* line 341, ../scss/member.scss */
+.register_finish>p a {
+    color: #3a3a3a;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #3a3a3a;
+    margin: 0 2px;
+}
+
+@media (max-width: 640px) {
+
+    /* line 327, ../scss/member.scss */
+    .register_finish>p {
+        font-size: 14px;
+    }
+}
+
+/*---------------會員中心-----------------------*/
+/* line 358, ../scss/member.scss */
+.member {
+    padding: 60px 30px;
+    background-color: #f4f4f4;
+    min-height: 500px;
+}
+
+@media (max-width: 854px) {
+
+    /* line 358, ../scss/member.scss */
+    .member {
+        padding: 40px 30px;
+    }
+}
+
+/* line 368, ../scss/member.scss */
+.member__main {
+    position: relative;
+    padding-left: 330px;
+}
+
+/* line 372, ../scss/member.scss */
+.member__main .aside {
+    width: 300px;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    padding: 30px 30px 40px 30px;
+    box-sizing: border-box;
+}
+
+/* line 381, ../scss/member.scss */
+.member__main .main {
+    background-color: #fff;
+    padding: 50px 50px 90px 50px;
+    min-height: 733px;
+}
+
+@media (max-width: 854px) {
+
+    /* line 368, ../scss/member.scss */
+    .member__main {
+        padding-left: 0;
+    }
+
+    /* line 388, ../scss/member.scss */
+    .member__main .aside {
+        width: 100%;
+        position: relative;
+        padding: 30px 20px 40px 20px;
+    }
+
+    /* line 393, ../scss/member.scss */
+    .member__main .main {
+        width: 100%;
+        margin-top: 20px;
+        padding: 50px 20px 70px 20px;
+        min-height: auto;
+    }
+}
+
+/* line 404, ../scss/member.scss */
+.aside h3 {
+    color: #3a3a3a;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* line 409, ../scss/member.scss */
+.aside h3 img {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+/* line 416, ../scss/member.scss */
+.aside>p {
+    font-size: 13px;
+    color: #3e3e3e;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    margin: 3px 0;
+}
+
+@media (max-width: 854px) {
+
+    /* line 416, ../scss/member.scss */
+    .aside>p {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+
+/* line 427, ../scss/member.scss */
+.aside .aside_menu_btn {
+    width: 100%;
+    font-size: 15px;
+    color: #7f7f7f;
+    letter-spacing: 0.05em;
+    border: 1px solid #7f7f7f;
+    padding: 5px 0;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+    display: none;
+}
+
+/* line 437, ../scss/member.scss */
+.aside .aside_menu_btn:after {
+    content: ' ▼ ';
+    display: inline-block;
+    font-size: 15px;
+    color: #7f7f7f;
+    margin-left: 5px;
+}
+
+/* line 444, ../scss/member.scss */
+.aside .aside_menu_btn.open {
+    display: block;
+    opacity: 1;
+}
+
+/* line 447, ../scss/member.scss */
+.aside .aside_menu_btn.open:after {
+    content: '▲';
+}
+
+@media (max-width: 854px) {
+
+    /* line 454, ../scss/member.scss */
+    .aside .aside_menu {
+        display: none;
+    }
+
+    /* line 458, ../scss/member.scss */
+    .aside .aside_menu_btn {
+        display: block;
+    }
+}
+
+@media (min-width: 855px) {
+
+    /* line 463, ../scss/member.scss */
+    .aside .aside_menu {
+        display: block !important;
+    }
+}
+
+/* line 473, ../scss/member.scss */
+.aside__nav {
+    border-top: 1px solid #797979;
+    border-bottom: 1px solid #797979;
+    padding: 15px 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* line 479, ../scss/member.scss */
+.aside__nav__item {
+    font-size: 15px;
+    margin: 25px 0;
+}
+
+/* line 482, ../scss/member.scss */
+.aside__nav__item a {
+    color: #7f7f7f;
+}
+
+/* line 484, ../scss/member.scss */
+.aside__nav__item a.current {
+    color: #555555;
+    font-weight: bold;
+}
+
+/* line 492, ../scss/member.scss */
+.aside__link {
+    color: #7f7f7f;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    display: table;
+    margin: 10px 0;
+}
+
+@media (max-width: 854px) {
+
+    /* line 492, ../scss/member.scss */
+    .aside__link {
+        display: inline-block;
+        margin: 10px 10px 10px 0;
+    }
+}
+
+/* line 505, ../scss/member.scss */
+.logout_btn {
+    background-color: #7f7f7f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+/* line 512, ../scss/member.scss */
+.logout_btn img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+@media (max-width: 854px) {
+
+    /* line 505, ../scss/member.scss */
+    .logout_btn {
+        margin-top: 10px;
+        display: table;
+    }
+}
+
+/* line 523, ../scss/member.scss */
+.member__main .main h3 {
+    font-size: 17px;
+    color: #3a3a3a;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+/* line 532, ../scss/member.scss */
+.member__main .main.remit h3 {
+    margin-bottom: 10px;
+}
+
+/* line 535, ../scss/member.scss */
+.member__main .main.remit>p {
+    font-size: 15px;
+    color: #3a3a3a;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+/* line 541, ../scss/member.scss */
+.member__main .main.remit>p.tip {
+    letter-spacing: 0.07em;
+    line-height: 1.7;
+}
+
+@media (max-width: 480px) {
+
+    /* line 541, ../scss/member.scss */
+    .member__main .main.remit>p.tip {
+        font-size: 13px;
+    }
+}
+
+/* line 549, ../scss/member.scss */
+.member__main .main.remit .program__form {
+    margin-bottom: 50px;
+}
+
+/* line 551, ../scss/member.scss */
+.member__main .main.remit .program__form.upgrade {
+    margin-bottom: 20px;
+}
+
+/* line 553, ../scss/member.scss */
+.member__main .main.remit .program__form.upgrade P {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 480px) {
+
+    /* line 557, ../scss/member.scss */
+    .member__main .main.remit .program__form.upgrade div {
+        font-size: 13px;
+    }
+
+    /* line 560, ../scss/member.scss */
+    .member__main .main.remit .program__form.upgrade p {
+        font-size: 13px;
+    }
+}
+
+/* line 565, ../scss/member.scss */
+.member__main .main.remit .program__form p {
+    margin-left: 0;
+}
+
+/* line 568, ../scss/member.scss */
+.member__main .main.remit .program__form .total {
+    font-size: 15px;
+    color: #a5034b;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    margin-left: -15px;
+}
+
+@media (max-width: 640px) {
+
+    /* line 549, ../scss/member.scss */
+    .member__main .main.remit .program__form {
+        padding-left: 0;
+    }
+
+    /* line 577, ../scss/member.scss */
+    .member__main .main.remit .program__form .program__form__option {
+        margin-left: 20px;
+    }
+
+    /* line 580, ../scss/member.scss */
+    .member__main .main.remit .program__form p {
+        margin-left: 0;
+    }
+
+    /* line 583, ../scss/member.scss */
+    .member__main .main.remit .program__form .total_num {
+        display: inline-block;
+    }
+
+    /* line 586, ../scss/member.scss */
+    .member__main .main.remit .program__form .total {
+        margin-left: 20px;
+        display: inline-block;
+    }
+}
+
+/* line 595, ../scss/member.scss */
+.form__box {
+    position: relative;
+    padding-left: 120px;
+    margin-bottom: 15px;
+}
+
+/* line 599, ../scss/member.scss */
+.form__box p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #3a3a3a;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    padding-top: 17px;
+}
+
+/* line 608, ../scss/member.scss */
+.form__box input[type='text'],
+.form__box input[type='password'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #f6f6f6;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+@media (max-width: 640px) {
+
+    /* line 595, ../scss/member.scss */
+    .form__box {
+        padding-left: 90px;
+    }
+
+    /* line 621, ../scss/member.scss */
+    .form__box p {
+        font-size: 14px;
+        padding-top: 12px;
+    }
+
+    /* line 625, ../scss/member.scss */
+    .form__box input[type='text'],
+    .form__box input[type='password'] {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    /* line 629, ../scss/member.scss */
+    .form__box.marquee {
+        padding-left: 0;
+    }
+
+    /* line 631, ../scss/member.scss */
+    .form__box.marquee p {
+        display: block;
+        position: relative;
+        margin-bottom: 15px;
+    }
+}
+
+/* line 641, ../scss/member.scss */
+.btn_list {
+    padding-left: 120px;
+    margin-top: 40px;
+}
+
+/* line 644, ../scss/member.scss */
+.btn_list .form_submit {
+    background-color: #119bb2;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    padding: 10px 0;
+    margin-right: 15px;
+    width: 115px;
+}
+
+/* line 652, ../scss/member.scss */
+.btn_list .form_submit:hover {
+    background-color: #0c7c8f;
+}
+
+/* line 656, ../scss/member.scss */
+.btn_list .form_cancel {
+    background-color: #939393;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    padding: 10px 0;
+    width: 115px;
+}
+
+/* line 663, ../scss/member.scss */
+.btn_list .form_cancel:hover {
+    background-color: #5e5e5e;
+}
+
+@media (max-width: 640px) {
+
+    /* line 641, ../scss/member.scss */
+    .btn_list {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /* line 671, ../scss/member.scss */
+    .btn_list .form_submit {
+        margin: 5px;
+    }
+
+    /* line 674, ../scss/member.scss */
+    .btn_list .form_cancel {
+        margin: 5px;
+    }
+}
+
+/* line 680, ../scss/member.scss */
+.employee {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+/* line 686, ../scss/member.scss */
+.employee .remind {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/* line 692, ../scss/member.scss */
+.employee .remind p {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* line 700, ../scss/member.scss */
+.employee .remind span {
+    top: 50%;
+    position: relative;
+    color: #7f7f7f;
+    font-size: 25px;
+}
+
+/* line 705, ../scss/member.scss */
+.employee .remind span img {
+    vertical-align: top;
+    position: relative;
+    top: 2px;
+}
+
+/* line 714, ../scss/member.scss */
+.employee_form {
+    font-size: 15px;
+    width: 100%;
+    max-width: 600px;
+    min-width: 250px;
+}
+
+/* line 719, ../scss/member.scss */
+.employee_form.attendance {
+    width: 100%;
+    min-width: 750px;
+    max-width: 100%;
+    font-size: 14px;
+}
+
+/* line 724, ../scss/member.scss */
+.employee_form.attendance td {
+    padding: 10px 3px;
+}
+
+/* line 728, ../scss/member.scss */
+.employee_form tr {
+    border-left: 2px solid #7f7f7f;
+    border-bottom: 2px solid #7f7f7f;
+}
+
+/* line 732, ../scss/member.scss */
+.employee_form th {
+    background-color: #7f7f7f;
+    color: #fff;
+    padding: 10px 0;
+    border-right: 2px solid #7f7f7f;
+    line-height: 1.3;
+}
+
+/* line 739, ../scss/member.scss */
+.employee_form td {
+    text-align: center;
+    border-right: 2px solid #7f7f7f;
+    color: #474747;
+    padding: 10px 0;
+}
+
+@media (max-width: 480px) {
+
+    /* line 714, ../scss/member.scss */
+    .employee_form {
+        font-size: 13px;
+    }
+}
+
+/* line 751, ../scss/member.scss */
+.select_input {
+    background-color: #f0f6f7;
+    padding: 20px 20px 10px 20px;
+
+    margin-bottom: 30px;
+}
+
+/* line 755, ../scss/member.scss */
+.select_input p {
+    display: inline-block;
+    font-size: 15px;
+    color: #474747;
+    margin-right: 15px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+}
+
+/* line 763, ../scss/member.scss */
+.select_input input[type='text'] {
+    border: 0;
+    height: 30px;
+    padding: 0 5px;
+    display: inline-block;
+    font-size: 15px;
+    color: #474747;
+    margin-right: 15px;
+    width: 140px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 0px;
+}
+
+/* line 776, ../scss/member.scss */
+.select_input button {
+    background-color: #d97362;
+    color: #fff;
+    border-radius: 0px;
+    height: 33px;
+    font-size: 15px;
+    padding: 0 30px;
+    width: 40%;
+    max-width: 100px;
+    margin-bottom: 10px;
+    margin-right: 10px
+}
+
+
+.select_input button.today {
+    background-color: #5cb5a8;
+    padding: 0 15px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.select_input button.export {
+    background-color: #eda700;
+    padding: 0 15px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+
+/* line 784, ../scss/member.scss */
+.select_input button:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+.select_input input[type='text'].custom {
+    width: 280px;
+    max-width: 100%;
+}
+
+.select_input input[type='text'].custom::placeholder {
+    color: #bcbcbc;
+}
+
+@media (max-width: 480px) {
+
+    /* line 791, ../scss/member.scss */
+    .select_input input {
+        width: 70px;
+        margin-right: 5px;
+        font-size: 13px;
+    }
+
+    /* line 796, ../scss/member.scss */
+    .select_input p {
+        margin-right: 5px;
+        font-size: 14px;
+    }
+
+    .select_input input[type='text'].custom {
+        width: 221px;
+    }
+}
+
+/* line 803, ../scss/member.scss */
+.main .line {
+    width: 100%;
+    border-bottom: 1px solid #797979;
+    margin-bottom: 50px;
+}
+
+/* line 808, ../scss/member.scss */
+.main .line2 {
+    width: 100%;
+    border-bottom: 1px solid #797979;
+    margin: 50px 0;
+}
+
+.radio_list {
+    margin: 5px 0 10px 0;
+}
+
+.radio_list label {
+    display: inline-block;
+    font-size: 15px;
+    color: #474747;
+    margin-right: 20px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+}
+
+.radio_list input[type='radio'] {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.sel {
+    height: 30px;
+    font-family: '微軟正黑體';
+    font-size: 15px;
+    color: #474747;
+    padding-left: 10px;
+    padding-right: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    width: 180px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    background: url(../images/drop.png) right 5px center no-repeat #fff;
+}
+
+.sel_box span {
+    font-family: '微軟正黑體';
+    font-size: 15px;
+    color: #474747;
+}
+
+.company {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.photo a {
+    display: block;
+}
+
+.addup {
+    margin-bottom: 5px;
+}
+
+.addup p {
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 0.07em;
+    font-weight: bold;
+    margin: 10px 25px 10px 0;
+    line-height: 17px;
+}
+
+
+.addup p span {
+    font-size: 15px;
+    font-weight: normal;
+    vertical-align: top;
+    letter-spacing: 0.04em;
+    line-height: 17px;
+    margin: 0 3px;
+}
+
+
+
+/*-----------sel_department--------------------*/
+
+
+
+.selbox {
+    position: relative;
+    width: 250px;
+    max-width: 90% !important;
+    z-index: 10;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.selbox.open {
+    z-index: 10000;
+    box-shadow: 2px 2px 2px #999;
+}
+
+.selbox>p {
+    font-size: 15px;
+    width: 250px;
+    max-width: 100%;
+    background-color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    letter-spacing: 0.05em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: url(../images/drop.png) right 5px center no-repeat #fff;
+    cursor: pointer;
+}
+
+.sel__list {
+    background-color: #fff;
+    position: absolute;
+    padding: 15px 10px;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+    box-shadow: 2px 2px 2px #999;
+    display: none;
+}
+
+.sel__list li {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.sel__list input[type=checkbox]:not(old) {
+    width: 26px;
+    height: 26px;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    opacity: 0;
+}
+
+/* line 283, ../scss/member.scss */
+.sel__list input[type=checkbox]:not(old)+label {
+    display: inline-block;
+    padding-left: 34px;
+    line-height: 26px;
+    background: url("../images/check_0.png") no-repeat;
+    color: #3a3a3a;
+}
+
+/* line 289, ../scss/member.scss */
+.sel__list input[type=checkbox]:not(old)+label p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* line 297, ../scss/member.scss */
+.sel__list input[type=checkbox]:not(old):checked+label {
+    background: url("../images/check_1.png") no-repeat;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1000;
+    display: none;
+}
+
+@media(max-width: 640px) {
+    .mask {
+        height: 200%;
+    }
+}
+
+.mask.open {
+    display: block;
+}
+
+
+
+/*-------------------receipt---------------------*/
+
+.receipt {}
+
+.receipt .program__form__option {
+    margin-left: 30px;
+}
+
+.receipt input[type='text'] {
+    margin: 0 1% 15px 1%;
+    width: 98%;
+}
+
+
+.receipt__imfo input[type='text'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #f6f6f6;
+    height: 50px;
+    width: 80%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+
+@media(max-width: 640px) {
+    .receipt__imfo input[type='text'] {
+        margin-left: 0px;
+        width: 100%;
+    }
+}

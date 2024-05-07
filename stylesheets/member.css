@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.menu_bar {
+  overflow-y: scroll;
+}
+
+.menu_bar::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.search-form {
+  visibility: hidden;
+}
+
+.app-brand>a {
+  padding-left: 1rem;
+}
+
+.navbar {
+  padding-right: unset;
+}
+
+#sidebar {
+  padding-bottom: unset;
+}
+
+.card-default .card-header {
+  justify-content: space-between;
+}
+
+/* ------seclab、purchaser-------- */
+
+.invisible_table {
+  display: none;
+}
+
+#enabled {
+  width: 7rem;
+}
+
+#enabled>button {
+  width: 100%;
+}
+
+/* ------attendance-------- */
+.table-scroll {
+  overflow-x: scroll;
+  cursor: grab;
+}
+
+/* ------holiday-------- */
+.niandu-group {
+  display: flex;
+}
+
+#ensure {
+  width: 9rem;
+}
+
+#autoimpBtn {
+  float: right;
+}
+
+.fit_container {
+  width: fit-content;
+}
+
+/* ------employee-------- */
+.em_title {
+  border-bottom: 1px solid #e5e9f2;
+}
+
+/* ------employeeattend-------- */
+#employ_select {
+  overflow-y: scroll;
+  min-width: 200px;
+  height: 20em;
+}
+
+#employ_select .table th {
+  word-break: keep-all;
+}
+
+#employ_select .table tr>th:first-child {
+  width: 20%;
+}
+
+.drag_me {
+  border: 1px solid;
+}
+
+.ea-table {
+  border: 1px solid;
+}

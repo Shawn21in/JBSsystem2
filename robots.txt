@@ -1,0 +1,42 @@
+User-Agent: SemrushBot
+Disallow: /
+
+User-agent: SiteAuditBot
+Disallow: /
+
+User-agent: SemrushBot-BA
+Disallow: /
+
+User-agent: SemrushBot-SI
+Disallow: /
+
+User-agent: SemrushBot-SWA
+Disallow: /
+
+User-agent: SemrushBot-CT
+Disallow: /
+
+User-agent: SemrushBot-BM
+Disallow: /
+
+User-agent: SplitSignalBot
+Disallow: /
+
+User-agent: SemrushBot-COUB
+Disallow: /
+
+User-Agent: DotBot
+Disallow: /
+
+User-Agent: AhrefsBot
+Disallow: /
+
+User-agent: *
+Disallow: /system/
+Disallow: /system/
+Disallow: /ckfinder/
+Disallow: /ckeditor/
+Disallow: /include/
+Disallow: /fckeditor/
+Disallow: /js/
+Disallow: /css/

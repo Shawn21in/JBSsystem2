@@ -1,0 +1,47 @@
+@import "maxin";
+
+
+.adlist{
+	display:flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	li{
+		width: calc(50% - 5px);
+		overflow: hidden;
+		margin-bottom: 10px;
+		&.full{
+			width: 100%;
+		}
+		a{
+			width: 100%;
+			display:block;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			padding-bottom:66.6%;
+			transform: scale(1);
+			@include transition (0.3s);
+			img{
+				display:none;
+			}
+		}
+		&:hover{
+			a{
+				transform: scale(1.05);
+			}
+		}
+		@media(max-width: 640px){
+			width: 100%;
+			a{
+				background: none !important;
+				padding-bottom:0;
+				margin-bottom:20px;
+				img{
+					display:block;
+					max-width: 100%;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+@import "maxin";
+
+
+.adlist{
+	display:flex;
+	width: 100%;
+	flex-wrap: wrap;
+	li{
+		width: 100%;
+		overflow: hidden;
+		margin-bottom:20px;
+		a{
+			background: none !important;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}

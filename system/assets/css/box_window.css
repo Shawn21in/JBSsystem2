@@ -1,0 +1,63 @@
+.tc_box {
+    /*background: #45303B;*/
+    position: fixed;
+    z-index: 99999;
+    display: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.tc_box .wrap {
+	border: 5px solid #1D609A;
+	max-width: 80%;
+    height: 100%;
+    padding: 16px;
+    background: #FFF8F8;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.tc_box .overlay-close {
+	font-size: 20px;
+    position: absolute;
+    margin: -22px -15px;
+    right: 20px;
+    top: 20px;
+    z-index: 99999;
+    cursor: pointer;
+}
+
+.tc_box .button {
+	min-width: 70px;
+	margin-top: 15px;
+}
+
+.tc_box .button-cancel {
+	margin-left: 30px;
+}
+
+.tc_box .textview {
+	font-size: 16px;
+    text-align: center;
+	margin: 0px;
+}
+
+.sp_box {
+    width: 100%;
+    position: absolute;
+    z-index: 99998;
+    top: 0;
+    left: 0;
+	/*opacity: 0.5;*/
+    display: none;
+}

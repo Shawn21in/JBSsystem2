@@ -1,0 +1,271 @@
+<div class="main-container">
+
+    <div class="main-content">
+    
+        <div class="row col-sm-12">
+        
+            <div class="col-sm-8 config-main">
+                
+                <div>
+                    <h1>
+                        <i class="ace-icon fa fa-leaf green"></i>
+                        <span class="red">建立後台資料庫</span>
+                    </h1>
+                </div>
+                
+                <div class="space-6"></div>
+
+                <div class="position-relative">
+                
+                    <div id="login-box" class="login-box visible widget-box no-border">
+                    
+                        <div class="widget-body">
+                        
+                            <div class="widget-main">
+                            
+                                <div class="tab_container">
+                                    
+                                    <form id="config_form" class="form-horizontal">
+                                    
+                                        <h4 class="header blue lighter bigger">資料庫資料填寫</h4>
+
+                                        <div class="space-6"></div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">伺服器位置</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="text" class="col-xs-12 col-sm-6" name="server" value="localhost" msg="請填寫伺服器位置">			
+                                                        
+                                                <label class="col-sm-6 control-label2">( 預設 : localhost )</label>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">資料庫名稱</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="text" class="col-xs-12 col-sm-6" name="database" value="" msg="請填寫資料庫名稱">	
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">資料庫帳號</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="text" class="col-xs-12 col-sm-6" name="databaseacc" value="" msg="請填寫資料庫帳號">			
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">資料庫密碼</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="text" class="col-xs-12 col-sm-6" name="databasepwd" value="" msg="請填寫資料庫密碼">			
+                                            </div>
+                                        </div>
+                                                                                    
+                                        <h4 class="header blue lighter bigger">管理者資料填寫</h4>
+
+                                        <div class="space-6"></div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">系統管理帳號</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="text" class="col-xs-12 col-sm-6" name="sysacc" value="" msg="請填寫系統管理帳號">			
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">系統管理密碼</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="password" class="col-xs-12 col-sm-6" name="syspwd" value="" msg="請填寫系統管理密碼" input-type="repassword" input-re-id="resyspwd" input-name="系統管理密碼" input-min="1">											
+                                                
+                                                <label class="col-sm-6 control-label2">( 請填寫6碼以上密碼 )</label>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">重複系統密碼</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="password" id="resyspwd" class="col-xs-12 col-sm-6" value="" msg="請填寫重複管理密碼" input-name="重複管理密碼">	
+                                                
+                                                <label class="col-sm-6 control-label2">( 請填寫6碼以上密碼 )</label>		
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">一般管理帳號</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="text" class="col-xs-12 col-sm-6" name="admacc" value="admin" msg="請填寫一般管理帳號">			
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">一般管理密碼</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="password" class="col-xs-12 col-sm-6" name="admpwd" value="admin" msg="請填寫一般管理密碼" input-type="repassword" input-re-id="readmpwd" input-name="一般管理密碼" input-min="5">			
+                                                
+                                                <label class="col-sm-6 control-label2">( 請填寫6碼以上密碼 )</label>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label">重複一般密碼</label>
+                                            <div class="col-sm-9">
+                                                
+                                                <input type="password" id="readmpwd" class="col-xs-12 col-sm-6" value="admin" msg="請填寫重複一般密碼" input-name="重複一般密碼">		
+                                                
+                                                <label class="col-sm-6 control-label2">( 請填寫6碼以上密碼 )</label>	
+                                            </div>
+                                        </div>
+                                        
+                                        <h4 class="header blue lighter bigger">基本功能選擇 ( 有分類 )</h4>
+
+                                        <div class="space-6"></div>
+                                                                                
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label nowrap">最新消息</label>
+                                            <div class="col-sm-10">
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_news" class="ace ace-switch ace-switch-7 config-checkbox" value="1">
+                                                    <span class="lbl"></span>	
+                                                </label>
+                                                
+                                                <label class="control-label6">( 含分類 )</label>
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_news" class="ace ace-switch ace-switch-7 config-checkbox" value="2">
+                                                    <span class="lbl"></span>	
+                                                </label>
+                                                
+                                                <label class="control-label6">( 不含分類 )</label>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label nowrap">常見問題</label>
+                                            <div class="col-sm-10">
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_qanda" class="ace ace-switch ace-switch-7 config-checkbox" value="1">
+                                                    <span class="lbl"></span>	
+                                                </label>	
+                                                
+                                                <label class="control-label6">( 含分類 )</label>
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_qanda" class="ace ace-switch ace-switch-7 config-checkbox" value="2">
+                                                    <span class="lbl"></span>	
+                                                </label>
+                                                
+                                                <label class="control-label6">( 不含分類 )</label>
+                                            </div>
+                                        </div>
+                                                                                
+                                        <div class="form-group">
+                                        	<label class="col-sm-2 control-label nowrap">產品資料</label>
+                                            <div class="col-sm-10">
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_product" class="ace ace-switch ace-switch-7 config-checkbox" value="1">
+                                                    <span class="lbl"></span>	
+                                                </label>
+                                                
+                                                <label class="control-label6">( 含分類 )</label>	
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_product" class="ace ace-switch ace-switch-7 config-checkbox" value="2">
+                                                    <span class="lbl"></span>	
+                                                </label>
+                                                
+                                                <label class="control-label6">( 不含分類 )</label>	
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label nowrap">相簿資料</label>
+                                            <div class="col-sm-10">
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_albums" class="ace ace-switch ace-switch-7 config-checkbox" value="1">
+                                                    <span class="lbl"></span>	
+                                                </label>
+                                                
+                                                <label class="control-label6">( 含分類 )</label>		
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_albums" class="ace ace-switch ace-switch-7 config-checkbox" value="2">
+                                                    <span class="lbl"></span>	
+                                                </label>
+                                                
+                                                <label class="control-label6">( 不含分類 )</label>	
+                                            </div>
+                                        </div>
+                                        
+                                        <h4 class="header blue lighter bigger">基本功能選擇 ( 無分類 )</h4>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label nowrap">廣告輪播</label>
+                                            <div class="col-sm-4">
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_banner" class="ace ace-switch ace-switch-7" value="1">
+                                                    <span class="lbl"></span>
+                                                </label>
+                                            </div>
+                                            
+                                            <label class="col-sm-2 control-label nowrap">會員資料</label>
+                                            <div class="col-sm-4">
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_member" class="ace ace-switch ace-switch-7" value="1">
+                                                    <span class="lbl"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label nowrap">聯絡我們</label>
+                                            <div class="col-sm-4">
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_message" class="ace ace-switch ace-switch-7" value="1">
+                                                    <span class="lbl"></span>
+                                                </label>
+                                            </div>
+                                            
+                                            <label class="col-sm-2 control-label nowrap">付款運費</label>
+                                            <div class="col-sm-4">
+                                                
+                                                <label class="control-label4">		
+                                                    <input type="checkbox" name="tb_delivery" class="ace ace-switch ace-switch-7" value="1">
+                                                    <span class="lbl"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        
+                                        <h4 class="header blue lighter bigger"></h4>
+                                                                            
+                                        <div class="clearfix config">
+                                        
+                                            <button type="button" class="btn btn-sm btn-primary config-submit">
+                                                <span class="bigger-110">建立後台</span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div><!-- /.widget-main -->
+                        </div><!-- /.widget-body -->
+                    </div><!-- /.login-box -->
+                </div><!-- /.position-relative -->
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /.main-content -->
+</div><!-- /.main-container -->

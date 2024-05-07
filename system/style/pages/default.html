@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-xs-4">
+        <div class="dataTables_info" id="mainTable_info">
+            顯示 <?=$Pages_Data['Page_Start']?> 至 <?=$Pages_Data['Page_End']?> 共 <?=$Pages_Data['Page_Total_Num']?> 資料
+        </div>
+    </div>
+    <div class="col-xs-8">
+        <div class="dataTables_paginate" id="mainTable_paginate">
+            <ul class="pagination">
+            
+                <li class="<?=$Pages_Data['Page_Pre']==0?"disabled":""?>">				
+                    <a href="javascript:void(0)" class="pages_class" pages="1">第一頁</a>
+                </li>
+                
+                <li class="<?=$Pages_Data['Page_Pre']==0?"disabled":""?>">				
+                    <a href="javascript:void(0)" class="pages_class" pages="<?=$Pages_Data['Page_Pre']?>">上一頁</a>
+                </li>
+                
+            <?php for( $i = $Pages_Data['Pstart']; $i <= $Pages_Data['Pend']; $i++ ){ ?>
+                <li class="<?=$i==$Pages_Data['Pages']?"active":""?>">
+                    <a href="javascript:void(0)" class="pages_class" pages="<?=$i?>"><?=$i?></a>
+                </li>
+            <?php } ?>
+                
+                <li class="<?=$Pages_Data['Page_Next']==0?"disabled":""?>">
+                    <a href="javascript:void(0)" class="pages_class" pages="<?=$Pages_Data['Page_Next']?>">下一頁</a>
+                </li>
+                
+                <li class="<?=$Pages_Data['Page_Next']==0?"disabled":""?>">				
+                    <a href="javascript:void(0)" class="pages_class" pages="<?=$Pages_Data['Page_Num']?>">最後一頁</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

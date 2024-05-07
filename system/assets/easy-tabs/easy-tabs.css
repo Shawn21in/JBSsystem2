@@ -1,0 +1,64 @@
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.abgne_tab {
+	/*clear: left;
+	width: 400px;
+	margin: 10px 0;*/
+}
+/*ul.tabs {
+	width: 100%;
+	height: 32px;
+	/*border-bottom: solid 1px #999;
+	border-left: 2px solid rgba(149, 160, 255, 0.5);
+}*/
+ul.tabs li {
+	float: left;
+	height: 35px;
+    line-height: 29px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: -1px;	/* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+	border: 2px solid rgba(149, 160, 255, 0.5);
+	/*border-left: none;
+	background: rgba(234, 236, 255, 1);*/
+	background: #EFF3F8;
+}
+ul.tabs li a {
+	display: block;
+	padding: 0 20px;
+	color: #000;
+	/*border: solid 1px #fff;*/
+	text-decoration: none;
+}
+ul.tabs li a:hover {
+	background: #A7B1F3;
+}
+ul.tabs li.active a {
+	background: #38c;
+	color: #FFF;
+	/*border-bottom: solid 1px rgba(234, 236, 255, 1);*/
+	/*position: relative;
+    z-index: 1;*/
+}
+/*ul.tabs li.active a:hover {
+	background: rgba(234, 236, 255, 1);
+}*/
+div.tab_container {
+	position: relative;
+    top: -3px;
+	clear: left;
+	width: 100%;
+	border: 2px solid rgba(149, 160, 255, 0.5);
+	/*background: rgba(234, 236, 255, 1);*/
+	background: #EFF3F8;
+}
+div.tab_container .tab_content {
+	display: none;
+	padding: 15px 6px 5px 6px;
+}
+div.tab_container .tab_content h2 {
+	margin: 0 0 20px;
+}
