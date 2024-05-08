@@ -61,7 +61,7 @@ $bank = $CM->GET_PURCHASER1_DATA();
                   </div>
                   <div class="card-body">
                     <!-- 年分 -->
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                       <label for="niandu">年度 *<span style="color:red">(請輸入民國年份)</span></label>
                       <input type="hidden" class="form-control" name="origin_niandu" value="<?= $niandu ?>">
                       <div class="niandu-group">
@@ -71,20 +71,18 @@ $bank = $CM->GET_PURCHASER1_DATA();
                             <span class="mdi mdi-pencil"></span> 確定</button>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- -- -->
                     <!-- <p class="mb-5"></p> -->
-                    <div id="enabled" data-flag="0">
+                    <div data-flag="0" id="enabled">
                       <button type="button" class="mb-1 btn btn-primary">
                         <span class="mdi mdi-pencil"></span> 編輯模式</button>
                     </div>
                     <div class="editnow" style="display:none;">
                       <button type="button" class="mb-1 btn btn-outline-primary" id="addBtn">
                         <i class=" mdi mdi-plus mr-1"></i> 新增</button>
-                      <!-- <button type="button" class="mb-1 btn btn-outline-primary" id="onlineOutputBtn">
-                        <i class=" mdi mdi-plus mr-1"></i> 匯出表格</button> -->
-                      <button type="button" class="mb-1 btn btn-outline-primary" id="onlineInputBtn">
-                        <i class=" mdi mdi-plus mr-1"></i> 線上新增</button>
+                      <button type="button" class="mb-1 btn btn-outline-info" id="onlineHealthInputBtn">
+                        <i class="autoupload-icon mdi mdi-cloud-upload-outline mr-1"></i> 線上自動匯入</button>
                       <button type="button" class="mb-1 btn btn-outline-success saveBtn" data-type="purchaser_edit">
                         <span class="mdi mdi-content-save"></span> 全部儲存</button>
                     </div>

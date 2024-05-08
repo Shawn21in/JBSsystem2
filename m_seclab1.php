@@ -68,6 +68,8 @@ $bank = $CM->GET_SECLAB1_DATA();
                     <div class="editnow" style="display:none;">
                       <button type="button" class="mb-1 btn btn-outline-primary" id="addBtn">
                         <i class=" mdi mdi-plus mr-1"></i> 新增</button>
+                      <button type="button" class="mb-1 btn btn-outline-info" id="onlinelaborInputBtn">
+                        <i class="autoupload-icon mdi mdi-cloud-upload-outline mr-1"></i> 線上自動匯入</button>
                       <button type="button" class="mb-1 btn btn-outline-success saveBtn" data-type="seclab_edit">
                         <span class="mdi mdi-content-save"></span> 全部儲存</button>
                     </div>
